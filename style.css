@@ -95,6 +95,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 160px;
+    margin-bottom: 96px;
 }
 
 .container p {
@@ -103,4 +104,24 @@ button {
     font-size: 18px;
     font-weight: lighter;
     color: #1F2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding: 72px 228px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.quote h5 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    margin-top: 0px;
 }
