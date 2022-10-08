@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 144px;
+}
+
+.logo {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
+
+.front {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 144px;
+}
+
+#fuji {
+    width: 456px;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 360px;
+    flex: content;
+}
+
+button {
+    width: 112px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 18px;
+    border-radius: 8px;
+}
+
+.info h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0px;
+}
+
+.info p {
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
